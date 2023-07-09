@@ -45,6 +45,14 @@ interaction:
         compose:
           run_options: [service-ports, use-aliases]
 
+# if you want to use bin/dev, uncomment this section
+#  dev:
+#    description: Run bin/dev
+#    service: app
+#    command: bin/dev
+#    compose:
+#      run_options: [service-ports, use-aliases]
+
   setup_key:
     description: Copy key
     service: app
