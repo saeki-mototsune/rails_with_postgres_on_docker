@@ -5,7 +5,7 @@
 
 ### Create new project
 ```
-dip rails new . --database=postgresql
+dip rails new . --database=postgresql --force
 docker compose build app --no-cache
 ```
 
