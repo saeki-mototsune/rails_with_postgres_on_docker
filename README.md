@@ -27,5 +27,5 @@ dip rails db:create
 
 ### Run your server
 ```
-dip rails server
+dip dev
 ```
